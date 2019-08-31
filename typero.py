@@ -3,12 +3,19 @@ import os
 import time
 import json
 import random
-import msvcrt
+# import msvcrt
 from datetime import datetime
+from file_parser import gather_lines
 
 
-print('... running typero\n')
+print('... running typero (%d)\n' % len(sys.argv))
 
+if len(sys.argv) == 5 and sys.argv[1] == 'query':
+    query_name = sys.argv[2]
+    dir_path = sys.argv[3]
+    regex_list = sys.argv[4].split('|')
+    gather_lines(query_name, dir_path, regex_list)
+    exit(1)
 
 with open('config.json', 'r') as file:
     config = json.load(file)
