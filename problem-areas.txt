@@ -1,0 +1,8 @@
+---------------
+TYPING PROBLEM AREAS
+---------------
+
+- ={}[]
+- writing in all caps, using consistent finger positions
+- using numbers not on the keypad
+- number symbols not on the keypad, can't afford to be looking each time we need one of them

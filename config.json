@@ -1,0 +1,8 @@
+{
+  "charsPerLine": 30,
+  "dateFormat": "%Y-%m-%d %H:%M",
+  "charFile": "problem_chars.json",
+  "sessionFile": "session_history.json",
+  "clearCommand": "cls",
+  "worstCharsDisplayed": 10
+}

@@ -1,0 +1,12 @@
+- list each character I want to work on, alongside how often I want it to occur
+- config file listing how many words, how long, etc...
+- need a user input strategy, simplest may be command line
+- reporting on problem keys
+- a way to integrate normal python / js / typing words in.
+- especially numbers would like to have integrated
+
+TERMINAL COMMANDS NECESSARY:
+- start with arguments specifying configuration files
+- prompt -> record input until enter is hit
+- time how long everything takes
+- report after finished line / section
